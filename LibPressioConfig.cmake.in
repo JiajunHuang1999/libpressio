@@ -137,6 +137,10 @@ if(@LIBPRESSIO_HAS_CUSZP@)
   find_package(cuSZp REQUIRED)
 endif()
 
+if(@LIBPRESSIO_HAS_FSZ@)
+  find_package(fsz REQUIRED)
+endif()
+
 if(@LIBPRESSIO_HAS_FPZIP@)
   find_package(fpzip)
 endif()
